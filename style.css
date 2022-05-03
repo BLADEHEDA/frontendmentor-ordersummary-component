@@ -1,0 +1,81 @@
+@import url(https://fonts.google.com/specimen/Red+Hat+Display);
+body{
+    background:url(./images/pattern-background-desktop.svg) f;
+    background-color:  hsl(225, 100%, 94%);
+    background-size:contain;
+}
+.container{
+    width:350px;
+    height:550px;
+    background:white;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    text-align: center;
+    color:hsl(223, 47%, 23%);
+}
+.content{
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+.illustration{
+    width:350px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-bottom: 10px;
+}
+.subscription{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+.div1{
+    flex-direction: row;
+    margin-left: -60px;
+
+}
+.first{
+    font-weight: bold;
+    font-size: 15px;
+}
+.button{
+    margin-bottom: 30px;
+}
+.cancel{
+    text-decoration: none;
+    font-weight:bold;
+    color: hsl(223, 47%, 23%);
+}
+.cancel:hover{
+    color:black;
+}
+.change{
+    margin-right: 15px;
+}
+.change:hover {
+    text-decoration: none;
+    }
+    .submit{
+        width:260px;
+        border:none;
+        background:   hsl(245, 75%, 52%);
+        border-radius: 10px;
+        padding:10px;
+        color: white;
+        font-weight: bold;
+        margin-bottom: -5px;
+    }
+    .submit:hover{
+        background: hsl(273, 44%, 45%) ;
+    }
+    @media(max-height:375px){
+        body{
+            background:url(./images/pattern-background-mobile.svg) fixed  top -60px center no-repeat;
+            background-size:contain;
+        }
+
+      
+    }
